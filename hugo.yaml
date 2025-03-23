@@ -1,0 +1,38 @@
+baseURL: localhost:1313/
+languageCode: en-us
+title: 🤔
+theme: PaperMod
+params:
+  assets:
+    favicon: "<link />"
+  homeInfoParams:
+    Title: "欢迎"
+    content: "keep moving"
+  socialIcons:
+    - name: github
+      url: "https://github.com/"
+  showBreadCrumbs: true
+  showReadTime: true
+#   showShareButtons: true
+  showPostNavLinks: true
+  hideFooter: true
+  hideFooter: true
+  
+menu:
+  main:
+    - identifier: categories
+      name: 目录
+      url: /categories/
+      weight: 10
+    - identifier: tags·
+      name: 标签
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 30
+    - identifier: about
+      name: 关于
+      url: /about/
+      weight: 40
