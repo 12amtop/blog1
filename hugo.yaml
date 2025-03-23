@@ -1,4 +1,4 @@
-baseURL: localhost:1313/
+baseURL: https://315.netlify.com
 languageCode: en-us
 title: 🤔
 theme: PaperMod
