@@ -5,7 +5,7 @@ theme: PaperMod
 params:
   assets: 
      disableHLJS: true 
-     favicon: "./static/favicon.ico"
+     favicon: "./assets/favicon.ico"
   cleanDestinationDir: true
   homeInfoParams:
     Title: "欢迎"
