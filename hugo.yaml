@@ -1,13 +1,15 @@
-baseURL: "https://315.netlify.com"
+baseURL: "https://315.netlify.app"
 languageCode: en-us
-title: 🤔
+title: chen
 theme: PaperMod
 params:
-  assets:
-    favicon: "<link />"
+  assets: 
+     disableHLJS: true 
+     favicon: "./static/favicon.ico"
+  cleanDestinationDir: true
   homeInfoParams:
     Title: "欢迎"
-    content: "keep moving"
+    content: "千里之行，始于足下"
   socialIcons:
     - name: github
       url: "https://github.com/"
@@ -17,7 +19,7 @@ params:
   showPostNavLinks: true
   hideFooter: true
   hideFooter: true
-  
+
 menu:
   main:
     - identifier: categories

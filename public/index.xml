@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>🤔</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on 🤔</description>
+    <title>chen</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on chen</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Mar 2025 23:10:13 +0800</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1</title>
-      <link>//localhost:1313/posts/1/</link>
+      <link>http://localhost:1313/posts/1/</link>
       <pubDate>Sat, 22 Mar 2025 23:10:13 +0800</pubDate>
-      <guid>//localhost:1313/posts/1/</guid>
+      <guid>http://localhost:1313/posts/1/</guid>
       <description></description>
     </item>
     <item>
       <title>1</title>
-      <link>//localhost:1313/posts/2/</link>
+      <link>http://localhost:1313/posts/2/</link>
       <pubDate>Sat, 22 Mar 2025 23:10:13 +0800</pubDate>
-      <guid>//localhost:1313/posts/2/</guid>
+      <guid>http://localhost:1313/posts/2/</guid>
       <description>&lt;p&gt;hello, i&amp;rsquo;m a software engineer.&lt;/p&gt;
 &lt;h1 id=&#34;1-背景&#34;&gt;1. 背景&lt;/h1&gt;
 &lt;p&gt;最近在做一个项目，需要在一个页面中展示多个表格，并且表格的宽度需要根据内容自适应。&lt;/p&gt;</description>
     </item>
     <item>
       <title>hugo &#43; github &#43; netlify构建blog</title>
-      <link>//localhost:1313/posts/blog/</link>
+      <link>http://localhost:1313/posts/blog/</link>
       <pubDate>Mon, 18 Mar 2024 16:24:21 +0800</pubDate>
-      <guid>//localhost:1313/posts/blog/</guid>
+      <guid>http://localhost:1313/posts/blog/</guid>
       <description>&lt;h1 id=&#34;一安装&#34;&gt;一、安装&lt;/h1&gt;
 &lt;p&gt;安装hugo (windows)&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;winget install Hugo.Hugo.Extended
@@ -65,9 +65,9 @@
     </item>
     <item>
       <title>个人介绍</title>
-      <link>//localhost:1313/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;hello, i&amp;rsquo;m a software engineer.&lt;/p&gt;</description>
     </item>
   </channel>
