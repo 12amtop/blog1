@@ -5,7 +5,7 @@ draft: false
 categories: ["hugo"]
 tags: ["hugo","github","netlify"]
 cover: 
-    image: img/cover1.jpg
+    image: https://raw.githubusercontent.com/stevechen1/picBed/main/20250323150938824.png 
     alt: 'single girl'
     caption: 'single girl'
 ---
