@@ -1,6 +1,6 @@
 ---
 title: hugo + github + netlify构建blog
-date: 2024-03-18T16:24:21+08:00
+date: 2025-02-01T16:24:21+08:00
 draft: false
 categories: ["hugo"]
 tags: ["hugo","github","netlify"]
