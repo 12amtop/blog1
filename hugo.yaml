@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://315.netlify.app"
 languageCode: en-us
 title: chen
 theme: PaperMod
