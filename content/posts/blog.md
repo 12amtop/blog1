@@ -5,7 +5,7 @@ draft: false
 categories: ["hugo"]
 tags: ["hugo", "github", "netlify"]
 cover:
-  image: https://raw.githubusercontent.com/stevechen0/picBed/main/20250323150938824.png
+  image: https://raw.githubusercontent.com/stevechen1/picBed/main/20250323150938824.png
   alt: "single girl"
   caption: "single girl"
 ---
@@ -97,7 +97,7 @@ hugo server # 本地预览
 
 此时页面还有一些问题，比如文章没有目录，没有标签，没有分类，没有归档，没有关于我。
 
-## 0.设置 about 和 archives 页面
+## 1.设置 about 和 archives 页面
 
 在`./content/`文件夹下创建`about.md`和`archives.md`，格式如下
 
@@ -122,7 +122,7 @@ summary: archives
 ---
 ```
 
-## 1.修改配置文件 hugo.yaml
+## 2.修改配置文件 hugo.yaml
 
 ```yaml
 params:
@@ -158,15 +158,9 @@ menu:
       weight: 39
 ```
 
-## 2.自动更新主题
+## 3.自动更新主题
 
 创建.gitmodules 文件，可以自动更新主题
-
-## 3.设置.gitignore 文件
-
-```bash
-public/
-```
 
 ```
 [submodule "themes/PaperMod"]
@@ -174,28 +168,70 @@ path = "themes/PaperMod"
 url = "https://github.com/adityatelange/hugo-PaperMod"
 ```
 
+## 4.设置.gitignore 文件
+
 ```bash
-hugo server # 本地预览
+public/
 ```
 
-效果如下![[Pasted image 20240318154806.png]]
+## 5.设置 favicon.ico
 
-# 三、netlify
+在`./static/`文件夹下创建`favicon.ico`文件
+修改配置文件 hugo.yaml
 
-创建账号，利用 github 登录，导入 GitHub。
+```yaml
+...
+params:
+  favicon: "/favicon.ico"
+  ...
+```
 
-添加
-![[Pasted image 20240318153336.png]]
-选择![[Pasted image 20240318153399.png]]
-点击 github，导入
+## 6.本地预览
 
-选择需要的源仓库，设置参数，设置自己的网站名字，其他如下：
+![](https://raw.githubusercontent.com/stevechen1/picBed/main/20250327121800924.png)
 
-![[Pasted image 20240318153643.png]]
+##
+
+# 三、部署
+
+## 1.创建 github 仓库
+
+## 2.将 hugo 项目推送到 github 仓库
+
+```bash
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin  # 1.创建 github 仓库
+```
+
+## 2.将 hugo 项目推送到 github 仓库
+
+```bash
+git push -u origin main
+```
+
+## 3.创建 netlify 账号
+
+使用 google 账号登录
+
+## 4.创建 netlify 项目
+
+![](https://raw.githubusercontent.com/stevechen1/picBed/main/20250327122235846.png)
+点击 github 授权，选择你的仓库，点击继续。
+
+## 5.设置 netlify 项目
+
+![](https://raw.githubusercontent.com/stevechen1/picBed/main/20250327122504786.png)
+填入需要的信息，注意hugo版本的设置，点击deploy。
+
+## 6.修改config.toml
+这个时候网页是不能生成的，应
+
 
 生成
-![[Pasted image 20240318154036.png]]
-这个时候还不能生成完整的页面，修改 cofig.yml
+这个时候还不能生成完整的页面，修改 config.yml
 
 ```yml
 baseUrl: "https://youwebname.netlify.app"
