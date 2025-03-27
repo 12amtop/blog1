@@ -16,13 +16,13 @@ cover:
 
 # 一、安装
 
-## 0.安装 git
+## 1.安装 git
 
-### 0.2 安装 node
+### 1.2 安装 node
 
-### 0.1 安装 git bash(windows)
+### 1.1 安装 git bash(windows)
 
-## 1、安装 hugo (windows)
+## 2、安装 hugo (windows)
 
 找到官网下载，安装
 
@@ -40,13 +40,13 @@ hugo version
 
 # 二、创建
 
-## 0.创建仓库
+## 1.创建仓库
 
 ```bash
 hugo new site test --format yaml
 ```
 
-## 1.安装主题
+## 2.安装主题
 
 安装主题 （其他的可以自己试，根据文档设置，主题[官网](https://themes.gohugo.io/)）
 
@@ -54,7 +54,7 @@ hugo new site test --format yaml
 git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1
 ```
 
-## 2.编辑配置文件
+## 3.编辑配置文件
 
 编辑 hugo.yaml 添加
 
@@ -62,7 +62,7 @@ git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth
 theme=PaperMod
 ```
 
-## 3.添加文章
+## 4.添加文章
 
 添加第一篇文章
 `hugo new posts/first.md`
@@ -83,7 +83,7 @@ image:
 ---
 ```
 
-## 4. 启动服务
+## 5. 启动服务
 
 ```bash
 hugo -D # 生成文件
