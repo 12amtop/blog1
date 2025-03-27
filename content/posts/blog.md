@@ -227,7 +227,7 @@ git push -u origin main
 填入需要的信息，注意hugo版本的设置，点击deploy。
 
 ## 6.修改config.toml
-这个时候网页是不能生成的，应
+这个时候页面的图片
 
 
 生成
