@@ -38,3 +38,7 @@ menu:
       name: 关于
       url: /about/
       weight: 40
+    - identifier: demo
+      name: demo
+      url: /links/
+      weight: 50
